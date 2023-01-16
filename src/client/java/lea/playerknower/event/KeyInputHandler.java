@@ -22,7 +22,7 @@ public class KeyInputHandler {
             if (displayKey.wasPressed()) {
                 // This happens when our custom key is pressed
                 //client.player.sendMessage(Text.of("Hello I pressed a Key"));
-                ClientPlayNetworking.send(ModMessages.EXAMPLE_ID, PacketByteBufs.create());
+                ClientPlayNetworking.send(ModMessages.DISPLAY_ID, PacketByteBufs.create());
             }
         });
     }
