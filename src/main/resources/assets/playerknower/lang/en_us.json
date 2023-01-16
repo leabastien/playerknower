@@ -1,0 +1,7 @@
+{
+  "commands.peopleknower.display": "The description of %s is :\n%s",
+  "commands.peopleknower.set": "Successfully set your description to:\n%s",
+  "commands.peopleknower.delete": "Successfully deleted your description",
+  "commands.peopleknower.display.none": "%s has no description"
+}
+
