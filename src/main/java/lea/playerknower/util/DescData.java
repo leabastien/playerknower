@@ -12,4 +12,14 @@ public class DescData {
         NbtCompound nbt = player.getPersistentData();
         nbt.putString("desc", NewDesc);
     }
+
+    public static String readShortDesc(IEntityDataSaver player) {
+        NbtCompound nbt = player.getPersistentData();
+        return nbt.getString("short_desc");
+    }
+
+    public static void setShortDesc(IEntityDataSaver player, String NewDesc) {
+        NbtCompound nbt = player.getPersistentData();
+        nbt.putString("short_desc", NewDesc);
+    }
 }
